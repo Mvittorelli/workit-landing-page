@@ -39,6 +39,10 @@ nav {
 nav a {
 	color: #fff;
 	font-size: 20px;
+	transition: 0.3s;
+}
+nav a:hover{
+	color: #44ffa1;
 }
 .headimg {
 	position: absolute;
@@ -82,7 +86,16 @@ button {
 	border: none;
 	padding: 20px 40px;
 	font-size: 18px;
+	transition: 0.3s;
+	border: #44ffa1 3px solid;
+
 }
+
+button:hover{
+	background-color: #24053e;
+	color: #44ffa1;
+}
+
 
 .info {
 	margin-top: 16%;
@@ -157,4 +170,9 @@ footer {
 }
 .mdi{
 	font-size: 20px;
+	color: #584D62;
+	transition: 0.3s;
+}
+.mdi:hover{
+	color: #24053E;
 }
